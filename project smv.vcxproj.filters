@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="m_base">
+      <UniqueIdentifier>{d9fc5620-6597-400f-a3ff-2dd8c34e290b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_base\m_framework">
+      <UniqueIdentifier>{2de361b9-d76d-41d7-be65-a2a4f9bfb3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_base\m_framework\ImGui">
+      <UniqueIdentifier>{8bc85a01-662c-4e2c-89bb-47bfb0844b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_base\m_includes">
+      <UniqueIdentifier>{cf2a52cb-f85d-4322-9a09-7ea4acab5b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_base\m_includes\Utilites">
+      <UniqueIdentifier>{cb579987-79b4-4ffb-92a6-20697dfe9fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core">
+      <UniqueIdentifier>{e9bc1b57-4c32-421c-a7cb-96bd23f18022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_aimbot">
+      <UniqueIdentifier>{f14ca75c-427a-47d1-86dd-274e9082262c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_aimbot\m_helper">
+      <UniqueIdentifier>{a324c7d7-bcaf-4aa9-b067-6b56bbed5fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_cheat">
+      <UniqueIdentifier>{df584d4f-57d8-4e60-a9dd-e3b5ed6cce6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_cheat\m_drawing">
+      <UniqueIdentifier>{74134cfa-595a-46d7-afcb-f9946b47f7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_cheat\m_funcs">
+      <UniqueIdentifier>{1e5443dc-d09d-4ff3-aca1-d05835bb58fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_cheat\m_world">
+      <UniqueIdentifier>{9aebe99c-e7bd-4e67-8b33-f9098307e88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_cheat\m_world\m_helper">
+      <UniqueIdentifier>{b93023f7-b161-4b94-ac36-604952de37ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_cheat\m_helper">
+      <UniqueIdentifier>{e9da14a7-e3d7-4b2f-af97-a2283cd694ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_kernel">
+      <UniqueIdentifier>{48ae4b1c-e4b6-4f97-9d0d-86b0c66e916e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_render">
+      <UniqueIdentifier>{8e82bb04-a612-4864-828d-0b727d3fdd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_core\m_render\m_include">
+      <UniqueIdentifier>{6c894890-653e-4700-a6fa-790a20dbd3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m_main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="m_main.cpp">
+      <Filter>m_main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>m_core\m_kernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m_vectors.hpp">
+      <Filter>m_core\m_cheat\m_funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="m_sdk.hpp">
+      <Filter>m_core\m_cheat\m_funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="m_overlay.hpp">
+      <Filter>m_core\m_render</Filter>
+    </ClInclude>
+    <ClInclude Include="m_funcs.hpp">
+      <Filter>m_core\m_cheat\m_funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="m_aimbot.cpp">
+      <Filter>m_core\m_aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="m_hex.hpp">
+      <Filter>m_base\m_includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="m_definition.hpp">
+      <Filter>m_base\m_includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="m_cache.cpp">
+      <Filter>m_core\m_cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="m_draw.hpp">
+      <Filter>m_core\m_cheat\m_drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="m_cfg.hpp">
+      <Filter>m_core\m_render\m_include</Filter>
+    </ClInclude>
+    <ClInclude Include="m_main.hpp">
+      <Filter>m_base\m_includes</Filter>
+    </ClInclude>
+    <ClInclude Include="m_globals.hpp">
+      <Filter>m_base\m_includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="m_structs.hpp">
+      <Filter>m_base\m_includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="m_keybind.hpp">
+      <Filter>m_base\m_includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="m_xor.h">
+      <Filter>m_base\m_includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="m_helper.hpp">
+      <Filter>m_core\m_cheat\m_helper</Filter>
+    </ClInclude>
+    <ClInclude Include="m_kernel.hpp">
+      <Filter>m_core\m_aimbot\m_helper</Filter>
+    </ClInclude>
+    <ClInclude Include="m_import.hpp">
+      <Filter>m_base\m_includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="m_dll.hpp">
+      <Filter>m_core\m_aimbot\m_helper</Filter>
+    </ClInclude>
+    <ClInclude Include="m_fortnite.hpp">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="m_world.cpp">
+      <Filter>m_core\m_cheat\m_world</Filter>
+    </ClInclude>
+    <ClInclude Include="m_font.hpp">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="m_world.hpp">
+      <Filter>m_core\m_cheat\m_world\m_helper</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>m_core\m_kernel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ImGui\d3d11.lib">
+      <Filter>m_base\m_framework\ImGui</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
